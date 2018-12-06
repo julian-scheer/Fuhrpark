@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_string_full_utf8_6" label="Kommentar" language="en" table="x_298574_fuhrpark_buchungen">
+    <sys_documentation element="u_kennzeichen" label="Kennzeichen" language="en" table="x_298574_fuhrpark_autos">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_string_full_utf8_6</element>
+            <element>u_kennzeichen</element>
             <help/>
             <hint/>
-            <label>Kommentar</label>
+            <label>Kennzeichen</label>
             <language>en</language>
-            <name>x_298574_fuhrpark_buchungen</name>
-            <plural>Kommentars</plural>
+            <name>x_298574_fuhrpark_autos</name>
+            <plural>Kennzeichens</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:06</sys_created_on>
-            <sys_id>98e1c490db522300c0af1fc7689619f3</sys_id>
+            <sys_created_on>2018-12-06 12:12:55</sys_created_on>
+            <sys_id>80f3a054dbd223007f6c7a6139961912</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Kommentar</sys_name>
+            <sys_name>Kennzeichen</sys_name>
             <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
             <sys_policy/>
             <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
-            <sys_update_name>sys_documentation_x_298574_fuhrpark_buchungen_u_string_full_utf8_6_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_298574_fuhrpark_autos_u_kennzeichen_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:06</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:12:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
