@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Autos" max_length="40" name="x_298574_fuhrpark_autos" type="collection">
-        <element label="Bezeichnung" max_length="40" name="u_bezeichnung" type="string"/>
-        <element label="Fahrgestellnummer" max_length="40" name="u_fahrgestellnummer" type="string"/>
-        <element label="Hersteller" max_length="40" name="u_hersteller" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Kapazität" max_length="40" name="u_kapazitaet" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Kaufdatum" max_length="40" name="u_kaufdatum" type="glide_date"/>
-        <element label="Kennzeichen" max_length="40" name="u_kennzeichen" type="string"/>
+        <element label="Bezeichnung" mandatory="true" max_length="40" name="u_bezeichnung" type="string"/>
+        <element label="Fahrgestellnummer" mandatory="true" max_length="40" name="u_fahrgestellnummer" type="string"/>
+        <element label="Hersteller" mandatory="true" max_length="40" name="u_hersteller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Kapazität" mandatory="true" max_length="40" name="u_kapazitaet" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Kaufdatum" mandatory="true" max_length="40" name="u_kaufdatum" type="glide_date"/>
+        <element label="Kennzeichen" mandatory="true" max_length="40" name="u_kennzeichen" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="3" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
                 <element label="Old" value="3"/>
