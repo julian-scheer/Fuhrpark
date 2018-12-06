@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Buchungen" max_length="40" name="x_298574_fuhrpark_buchungen" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Abholung" max_length="40" name="u_abholung" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_5" type="string">
             <choice>
-                <element inactive_on_update="false" label="Request" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Requested" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="-TBDVALUE-3" sequence="2"/>
+                <element label="Request" sequence="0" value="1"/>
+                <element label="Requested" sequence="1" value="2"/>
+                <element label="-TBDVALUE-3" sequence="2"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Fahrer" max_length="32" name="u_fahrer" reference="sys_user" type="reference"/>

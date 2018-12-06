@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Autos" max_length="40" name="x_298574_fuhrpark_autos" type="collection">
         <element display="true" label="u_bezeichnung" max_length="40" name="bezeichnung" type="string"/>
         <element label="u_hersteller" max_length="40" name="hersteller" type="string"/>
@@ -6,9 +7,9 @@
         <element label="u_kaufdatum" max_length="40" name="kaufdatum" type="glide_date"/>
         <element choice="3" label="u_klasse" max_length="40" name="klasse" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Kleinwagen" value="1"/>
-                <element inactive_on_update="false" label="Normal" value="2"/>
-                <element inactive_on_update="false" label="Protz" value="3"/>
+                <element label="Kleinwagen" value="1"/>
+                <element label="Normal" value="2"/>
+                <element label="Protz" value="3"/>
             </choice>
         </element>
         <element label="Test" max_length="40" name="test" type="string"/>
