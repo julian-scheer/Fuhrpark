@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Zwischenfälle" max_length="40" name="x_298574_fuhrpark_zwischenf_lle" type="collection">
-        <element label="Datum123" max_length="40" name="u_datum" type="string"/>
+        <element choice="3" label="Art" max_length="40" name="u_art" type="choice">
+            <choice>
+                <element label="Andere" language="de" value="40"/>
+                <element label="Unfall" language="de" value="10"/>
+                <element label="Verlängerung" language="de" value="20"/>
+                <element label="Verzoegerung" language="de" value="30"/>
+            </choice>
+        </element>
+        <element label="Buchung" max_length="32" name="u_buchung" reference="x_298574_fuhrpark_buchungen" type="reference"/>
+        <element label="Datum" max_length="40" name="u_datum" type="glide_date"/>
+        <element label="Nachricht" max_length="400" name="u_nachricht" type="string"/>
+        <index name="index">
+            <element name="u_buchung"/>
+        </index>
     </element>
 </database>

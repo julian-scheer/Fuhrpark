@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_datum" label="Datum123" language="en" table="x_298574_fuhrpark_zwischenf_lle">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_datum" label="Datum" language="en" table="x_298574_fuhrpark_zwischenf_lle">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_datum</element>
             <help/>
             <hint/>
-            <label>Datum123</label>
+            <label>Datum</label>
             <language>en</language>
             <name>x_298574_fuhrpark_zwischenf_lle</name>
-            <plural>Datum123s</plural>
+            <plural>Datums</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-12-06 09:50:31</sys_created_on>
             <sys_id>ca53cc10db5223002ef4788dbf9619af</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Datum123</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Datum</sys_name>
             <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
             <sys_policy/>
             <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
             <sys_update_name>sys_documentation_x_298574_fuhrpark_zwischenf_lle_u_datum_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:55:53</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:59:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
