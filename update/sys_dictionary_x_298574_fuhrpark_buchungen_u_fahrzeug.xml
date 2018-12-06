@@ -6,7 +6,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Fahrzeug</column_label>
@@ -33,7 +33,7 @@
         <name>x_298574_fuhrpark_buchungen</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_298574_fuhrpark_autos">x_298574_fuhrpark_autos</reference>
         <reference_cascade_rule/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 09:44:06</sys_created_on>
-        <sys_id>67e6d458db9223007f6c7a6139961924</sys_id>
+        <sys_id>d869d45cdb922300c0af1fc768961964</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Fahrzeug</sys_name>
         <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
         <sys_update_name>sys_dictionary_x_298574_fuhrpark_buchungen_u_fahrzeug</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-06 11:16:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 11:27:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

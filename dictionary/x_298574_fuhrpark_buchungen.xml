@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Fahrer" max_length="32" name="u_fahrer" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Fahrzeug" max_length="32" name="u_fahrzeug" reference="x_298574_fuhrpark_autos" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Fahrzeug" max_length="32" name="u_fahrzeug" read_only="true" reference="x_298574_fuhrpark_autos" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="255" name="u_kommentar" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Rückgabe" max_length="40" name="u_rckgabe" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Status" max_length="40" name="u_status" type="string">
@@ -26,6 +26,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Tatsächliche Rückgabe" max_length="40" name="u_tatsaeliche_rueckgabe" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Verfügbare Autos" max_length="40" name="u_verfuegbare_autos" type="choice">
+            <choice/>
+        </element>
         <index name="index">
             <element name="u_fahrer"/>
         </index>
