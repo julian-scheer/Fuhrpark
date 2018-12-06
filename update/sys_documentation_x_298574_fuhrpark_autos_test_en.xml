@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="test" label="Test" language="en" table="x_298574_fuhrpark_autos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>test</element>
+            <help/>
+            <hint/>
+            <label>Test</label>
+            <language>en</language>
+            <name>x_298574_fuhrpark_autos</name>
+            <plural>Tests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 09:50:02</sys_created_on>
+            <sys_id>763340d0db5223007f6c7a6139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
+            <sys_update_name>sys_documentation_x_298574_fuhrpark_autos_test_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 09:50:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

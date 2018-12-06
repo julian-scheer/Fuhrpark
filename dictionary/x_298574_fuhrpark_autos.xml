@@ -11,5 +11,6 @@
                 <element inactive_on_update="false" label="Protz" value="3"/>
             </choice>
         </element>
+        <element label="Test" max_length="40" name="test" type="string"/>
     </element>
 </database>

@@ -13,10 +13,10 @@
         <element attributes="edge_encryption_enabled=true" label="Rückgabe" max_length="40" name="u_rckgabe" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
         <index name="index">
-            <element name="u_fahrzeug"/>
+            <element name="u_fahrer"/>
         </index>
         <index name="index2">
-            <element name="u_fahrer"/>
+            <element name="u_fahrzeug"/>
         </index>
     </element>
 </database>
