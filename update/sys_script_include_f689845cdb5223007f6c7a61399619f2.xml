@@ -22,7 +22,7 @@ getTest.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 			function getCars(rqAnfang,rqEnde){
 			var gr = new GlideRecord('x_298574_fuhrpark_buchungen');
-			gr.addQuery('status','1'); // muss angepasst werden
+			gr.addQuery('status','4'); // muss angepasst werden
 			gr.query();
 			var back="";
 			var temp =[];
@@ -81,13 +81,13 @@ getTest.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 10:19:35</sys_created_on>
         <sys_id>f689845cdb5223007f6c7a61399619f2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>getAvailableCarsFromServer</sys_name>
         <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
         <sys_update_name>sys_script_include_f689845cdb5223007f6c7a61399619f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 13:07:39</sys_updated_on>
+        <sys_updated_on>2018-12-06 13:12:20</sys_updated_on>
     </sys_script_include>
 </record_update>
