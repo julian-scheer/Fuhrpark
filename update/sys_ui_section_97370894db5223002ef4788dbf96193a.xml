@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_ui_section caption="" section_id="97370894db5223002ef4788dbf96193a" sys_domain="global" table="x_298574_fuhrpark_zwischenf_lle" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_datum</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:20:46</sys_created_on>
-            <sys_id>494a8898db5223002ef4788dbf9619f2</sys_id>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>76c9ec94dbd223002ef4788dbf96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:20:46</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +19,13 @@
             <element>u_buchung</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:20:46</sys_created_on>
-            <sys_id>c94a8898db5223002ef4788dbf9619f2</sys_id>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>f6c9ec94dbd223002ef4788dbf96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:20:46</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +33,13 @@
             <element>u_art</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:20:46</sys_created_on>
-            <sys_id>4d4a8898db5223002ef4788dbf9619f2</sys_id>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>7ac9ec94dbd223002ef4788dbf96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:20:46</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,27 +47,41 @@
             <element>u_details</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:20:46</sys_created_on>
-            <sys_id>cd4a8898db5223002ef4788dbf9619f2</sys_id>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>fac9ec94dbd223002ef4788dbf96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:20:46</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_anzahl_tage</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>7ec9ec94dbd223002ef4788dbf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_nachricht</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 10:20:46</sys_created_on>
-            <sys_id>414a8898db5223002ef4788dbf9619f3</sys_id>
+            <sys_created_on>2018-12-06 12:38:30</sys_created_on>
+            <sys_id>fec9ec94dbd223002ef4788dbf96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_zwischenf_lle" sys_domain="global" view="Default view">97370894db5223002ef4788dbf96193a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:20:46</sys_updated_on>
+            <sys_updated_on>2018-12-06 12:38:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
