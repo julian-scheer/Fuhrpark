@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Buchungen" max_length="40" name="x_298574_fuhrpark_buchungen" type="collection"/>
+    <element label="Buchungen" max_length="40" name="x_298574_fuhrpark_buchungen" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Abholung" max_length="40" name="u_abholung" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Request" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="-TBDVALUE-3" sequence="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Fahrer" max_length="32" name="u_fahrer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Fahrzeug" max_length="32" name="u_fahrzeug" reference="x_298574_fuhrpark_autos" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Rückgabe" max_length="40" name="u_rckgabe" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
+        <index name="index">
+            <element name="u_fahrzeug"/>
+        </index>
+        <index name="index2">
+            <element name="u_fahrer"/>
+        </index>
+    </element>
 </database>
