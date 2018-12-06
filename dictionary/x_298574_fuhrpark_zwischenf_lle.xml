@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Zwischenfälle" max_length="40" name="x_298574_fuhrpark_zwischenf_lle" type="collection">
-        <element choice="3" label="Art" max_length="40" name="u_art" type="choice">
+        <element choice="3" default="40" label="Art" max_length="40" name="u_art" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Andere" value="40"/>
-                <element inactive_on_update="false" label="Unfall" value="10"/>
-                <element inactive_on_update="false" label="Verlängerung" value="20"/>
-                <element inactive_on_update="false" label="Verzoegerung" value="30"/>
+                <element label="Abbruch" value="50"/>
+                <element label="Andere" value="40"/>
+                <element label="Unfall" value="10"/>
+                <element label="Verlängerung" value="20"/>
+                <element label="Verzögerung" value="30"/>
             </choice>
         </element>
         <element label="Buchung" max_length="32" name="u_buchung" reference="x_298574_fuhrpark_buchungen" type="reference"/>

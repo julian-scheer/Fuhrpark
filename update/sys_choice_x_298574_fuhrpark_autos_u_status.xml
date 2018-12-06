@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_298574_fuhrpark_autos" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -63,7 +64,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-12-06 11:00:03</sys_created_on>
-            <sys_id>dd3f5814dbd22300c0af1fc7689619b8</sys_id>
+            <sys_id>e6df505cdb9223002ef4788dbf961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_status</sys_name>
             <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>

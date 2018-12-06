@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="u_art" table="x_298574_fuhrpark_zwischenf_lle" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -43,7 +44,7 @@
             <element>u_art</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Verzoegerung</label>
+            <label>Verzögerung</label>
             <language>en</language>
             <name>x_298574_fuhrpark_zwischenf_lle</name>
             <sequence/>
@@ -52,9 +53,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8ac64094db5223002ef4788dbf9619bf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 10:15:33</sys_updated_on>
+            <sys_updated_on>2018-12-06 11:33:40</sys_updated_on>
             <value>30</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -76,13 +77,32 @@
             <sys_updated_on>2018-12-06 10:15:33</sys_updated_on>
             <value>40</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_art</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abbruch</label>
+            <language>en</language>
+            <name>x_298574_fuhrpark_zwischenf_lle</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 11:45:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e28d9c98db9223002ef4788dbf9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 11:45:08</sys_updated_on>
+            <value>50</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_art</element>
             <name>x_298574_fuhrpark_zwischenf_lle</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-12-06 10:05:02</sys_created_on>
-            <sys_id>953f5814dbd22300c0af1fc7689619d6</sys_id>
+            <sys_id>21efd05cdb9223002ef4788dbf961941</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_art</sys_name>
             <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
