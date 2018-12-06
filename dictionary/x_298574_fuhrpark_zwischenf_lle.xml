@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Zwischenfälle" max_length="40" name="x_298574_fuhrpark_zwischenf_lle" type="collection">
         <element choice="3" label="Art" max_length="40" name="u_art" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Andere" language="de" value="40"/>
-                <element inactive_on_update="false" label="Andere" value="40"/>
-                <element inactive_on_update="false" label="Unfall" language="de" value="10"/>
-                <element inactive_on_update="false" label="Unfall" value="10"/>
-                <element inactive_on_update="false" label="Verlängerung" value="20"/>
-                <element inactive_on_update="false" label="Verlängerung" language="de" value="20"/>
-                <element inactive_on_update="false" label="Verzoegerung" value="30"/>
-                <element inactive_on_update="false" label="Verzoegerung" language="de" value="30"/>
+                <element label="Andere" value="40"/>
+                <element label="Unfall" value="10"/>
+                <element label="Verlängerung" value="20"/>
+                <element label="Verzoegerung" value="30"/>
             </choice>
         </element>
         <element label="Buchung" max_length="32" name="u_buchung" reference="x_298574_fuhrpark_buchungen" type="reference"/>
         <element label="Datum" max_length="40" name="u_datum" type="glide_date"/>
+        <element label="Details" max_length="100" name="u_details" type="string"/>
         <element label="Nachricht" max_length="400" name="u_nachricht" type="string"/>
         <index name="index">
             <element name="u_buchung"/>

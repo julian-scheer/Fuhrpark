@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Buchungen" max_length="40" name="x_298574_fuhrpark_buchungen" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Abholung" max_length="40" name="u_abholung" type="glide_date"/>
         <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Buchungsnummer" max_length="50" name="u_buchungsnummer" read_only="true" type="string" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_5" type="string">
             <choice>
-                <element inactive_on_update="false" label="Request" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Requested" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="-TBDVALUE-3" sequence="2"/>
+                <element label="Request" sequence="0" value="1"/>
+                <element label="Requested" sequence="1" value="2"/>
+                <element label="-TBDVALUE-3" sequence="2"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Fahrer" max_length="32" name="u_fahrer" reference="sys_user" type="reference"/>
@@ -16,12 +17,12 @@
         <element attributes="edge_encryption_enabled=true" label="Rückgabe" max_length="40" name="u_rckgabe" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Status" max_length="40" name="u_status" type="string">
             <choice>
-                <element inactive_on_update="false" label="Verfügbar" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Bestellt" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Warte auf Genehmigung" sequence="2" value="3"/>
-                <element inactive_on_update="false" label="Genehmigt" sequence="3" value="4"/>
-                <element inactive_on_update="false" label="Abgelehnt" sequence="4" value="5"/>
-                <element inactive_on_update="false" label="Abgebrochen" sequence="5" value="6"/>
+                <element label="Verfügbar" sequence="0" value="1"/>
+                <element label="Bestellt" sequence="1" value="2"/>
+                <element label="Warte auf Genehmigung" sequence="2" value="3"/>
+                <element label="Genehmigt" sequence="3" value="4"/>
+                <element label="Abgelehnt" sequence="4" value="5"/>
+                <element label="Abgebrochen" sequence="5" value="6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Kommentar" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>

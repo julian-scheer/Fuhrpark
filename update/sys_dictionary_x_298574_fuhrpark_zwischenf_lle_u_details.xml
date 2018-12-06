@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_buchung" table="x_298574_fuhrpark_zwischenf_lle">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_details" table="x_298574_fuhrpark_zwischenf_lle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Buchung</column_label>
+        <column_label>Details</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,20 +28,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_buchung</element>
+        <element>u_details</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>100</max_length>
         <name>x_298574_fuhrpark_zwischenf_lle</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_298574_fuhrpark_buchungen">x_298574_fuhrpark_buchungen</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-06 10:04:03</sys_created_on>
-        <sys_id>b77a40d8db5223002ef4788dbf961971</sys_id>
+        <sys_created_on>2018-12-06 10:20:13</sys_created_on>
+        <sys_id>6f0a4858db5223002ef4788dbf9619c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Buchung</sys_name>
+        <sys_name>Details</sys_name>
         <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
-        <sys_update_name>sys_dictionary_x_298574_fuhrpark_zwischenf_lle_u_buchung</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-06 10:21:51</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_298574_fuhrpark_zwischenf_lle_u_details</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 10:20:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
