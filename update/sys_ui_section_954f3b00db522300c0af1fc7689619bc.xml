@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="954f3b00db522300c0af1fc7689619bc" sys_domain="global" table="x_298574_fuhrpark_buchungen" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_fahrer</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>58e10890db522300c0af1fc768961940</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>98f34854db522300c0af1fc768961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +18,13 @@
             <element>u_fahrzeug</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>50e10890db522300c0af1fc768961941</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>50f34854db522300c0af1fc768961902</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>d0e10890db522300c0af1fc768961941</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>d0f34854db522300c0af1fc768961902</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +46,13 @@
             <element>u_abholung</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>54e10890db522300c0af1fc768961941</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>54f34854db522300c0af1fc768961902</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,27 +60,69 @@
             <element>u_rckgabe</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>d4e10890db522300c0af1fc768961941</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>d4f34854db522300c0af1fc768961902</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_5</element>
+            <element>u_status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 09:44:07</sys_created_on>
-            <sys_id>58e10890db522300c0af1fc768961941</sys_id>
+            <sys_created_on>2018-12-06 09:53:07</sys_created_on>
+            <sys_id>58f34854db522300c0af1fc768961902</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 09:44:07</sys_updated_on>
+            <sys_updated_on>2018-12-06 09:53:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tatsaeliche_rueckgabe</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 09:59:51</sys_created_on>
+            <sys_id>fe758cd0db522300c0af1fc7689619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 09:59:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_buchungsnummer</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 10:01:41</sys_created_on>
+            <sys_id>71e58418db522300c0af1fc768961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 10:01:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 10:10:05</sys_created_on>
+            <sys_id>30d78c58db522300c0af1fc7689619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_298574_fuhrpark_buchungen" sys_domain="global" view="Default view">954f3b00db522300c0af1fc7689619bc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 10:10:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

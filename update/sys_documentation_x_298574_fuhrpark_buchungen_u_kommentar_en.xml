@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_kommentar" label="Kommentar" language="en" table="x_298574_fuhrpark_buchungen">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_kommentar</element>
+            <help/>
+            <hint/>
+            <label>Kommentar</label>
+            <language>en</language>
+            <name>x_298574_fuhrpark_buchungen</name>
+            <plural>Kommentars</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 09:53:06</sys_created_on>
+            <sys_id>ccf30854db522300c0af1fc7689619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Kommentar</sys_name>
+            <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
+            <sys_update_name>sys_documentation_x_298574_fuhrpark_buchungen_u_kommentar_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 09:53:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
