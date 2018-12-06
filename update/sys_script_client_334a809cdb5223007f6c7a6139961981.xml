@@ -4,7 +4,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>u_abholung</field>
+        <field>u_rckgabe</field>
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
@@ -18,7 +18,7 @@
    //Type appropriate comment here, and begin script below
 	if(g_form.getValue('u_tatsaechliche_rueckgabe')==''){
 		var ga = new GlideAjax('x_298574_fuhrpark.getAvailableCarsFromServer');
-		ga.addParam('sysparm_name','getAvailableCarsFromServer');
+		ga.addParam('sysparm_name','getavailableCarsFromServer');
 		ga.addParam('anfang',g_form.getValue('u_abholung'));
 		ga.addParam('ende',g_form.getValue('u_rckgabe'));
 		ga.getXML(output);
@@ -27,6 +27,7 @@
 	}  
 }
 function output(response){
+	//g_form.addInfoMessage('### is da'+ response);
 	g_form.setMandatory();
 	g_form.clearOptions("u_verfuegbare_autos");
 	var test = response.responseXML.documentElement.getAttribute("answer");
@@ -36,8 +37,8 @@ function output(response){
 	}
 	for(var i=0; i<ausgabe.length;i++){
 		var print = ausgabe[i].split("-");
-		//g_form.addInfoMessage(print[0]);
-		g_form.addOption('verfugbare_autos',print[0],print[1]); //kann iwie keine choices als referenz einfügen, sollte aber eigt weil es sys_id sind
+		//g_form.addInfoMessage('###'+print[0]);
+		g_form.addOption('u_verfuegbare_autos',print[0],print[1]); //kann iwie keine choices als referenz einfügen, sollte aber eigt weil es sys_id sind
 	}
 	
 
@@ -49,7 +50,7 @@ function output(response){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>334a809cdb5223007f6c7a6139961981</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>FillAvailableCars</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
@@ -57,7 +58,7 @@ function output(response){
         <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
         <sys_update_name>sys_script_client_334a809cdb5223007f6c7a6139961981</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 10:35:14</sys_updated_on>
+        <sys_updated_on>2018-12-06 14:38:44</sys_updated_on>
         <table>x_298574_fuhrpark_buchungen</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 09:26:53</sys_created_on>
-        <sys_id>79968914db5623007f6c7a613996191c</sys_id>
+        <sys_id>5a570598db562300c0af1fc7689619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_298574_fuhrpark_autos</sys_name>
         <sys_package display_value="Fuhrpark" source="x_298574_fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fuhrpark">825aff84db1223002ef4788dbf9619b6</sys_scope>
-        <sys_update_name>ua_table_licensing_config_79968914db5623007f6c7a613996191c</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_5a570598db562300c0af1fc7689619d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-12-06 09:26:53</sys_updated_on>
     </ua_table_licensing_config>
