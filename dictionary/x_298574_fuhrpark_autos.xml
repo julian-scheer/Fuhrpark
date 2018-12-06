@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Autos" max_length="40" name="x_298574_fuhrpark_autos" type="collection">
-        <element display="true" label="u_bezeichnung" max_length="40" name="bezeichnung" type="string"/>
-        <element label="u_hersteller" max_length="40" name="hersteller" type="string"/>
-        <element label="u_kapazitaet" max_length="40" name="kapazitat" type="integer"/>
-        <element label="u_kaufdatum" max_length="40" name="kaufdatum" type="glide_date"/>
-        <element choice="3" label="u_klasse" max_length="40" name="klasse" type="choice">
+        <element label="Bezeichnung" max_length="40" name="u_bezeichnung" type="string"/>
+        <element label="Hersteller" max_length="40" name="u_hersteller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Kapazität" max_length="40" name="u_kapazitaet" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Kaufdatum" max_length="40" name="u_kaufdatum" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="3" label="Status" max_length="40" name="u_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Kleinwagen" value="1"/>
-                <element inactive_on_update="false" label="Normal" value="2"/>
-                <element inactive_on_update="false" label="Protz" value="3"/>
+                <element inactive_on_update="false" label="Old" value="3"/>
+                <element inactive_on_update="false" label="Ordered" value="2"/>
+                <element inactive_on_update="false" label="Working" value="1"/>
             </choice>
         </element>
-        <element label="Test" max_length="40" name="test" type="string"/>
     </element>
 </database>
