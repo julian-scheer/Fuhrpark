@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 11:45:17</sys_created_on>
         <sys_id>df3d9810dbd223007f6c7a613996193f</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 12:11:06</sys_updated_on>
+        <sys_updated_on>2018-12-06 14:51:27</sys_updated_on>
         <table>x_298574_fuhrpark_buchungen</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="BuchungAblauf">039d5810dbd223007f6c7a61399619de</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
